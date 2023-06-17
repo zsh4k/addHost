@@ -8,7 +8,7 @@ fi
 
 # Verificar si se proporcionan suficientes argumentos
 if [[ $# -ne 2 ]]; then
-  echo "Uso: $0 <dirección_IP> <nombre>"
+  echo "Uso: addHost <dirección_IP> <nombre>"
   exit 1
 fi
 
